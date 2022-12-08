@@ -20,7 +20,7 @@ public class TerrainSaver {
             // For loop to return all the terrainInfo in one string to be read by polling the queue
             for(int n = 0; n <= terrainInfo.size()+1; n++) {
                 String finalTerrainInfo = terrainInfo.poll();
-                System.out.println(finalTerrainInfo);
+                System.out.println("The ship has not yet returned");;
             }
         }
     }
